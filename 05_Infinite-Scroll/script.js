@@ -70,7 +70,7 @@ window.addEventListener('scroll', () => {
     window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 &&
     ready
   ) {
-    displayPhotos();
+    getPhotos();
   }
 });
 
